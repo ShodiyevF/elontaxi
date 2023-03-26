@@ -16,13 +16,10 @@ async function app() {
     
     function lister() {
         console.info('=================================');
-        console.info(`======= ENV: ${action} =======`);
-        console.info(`🚀 Bot succesfully running `);
-        console.info('=================================');
+        console.info(`======= ENV: ${action} ========`);
+        console.info(`🚀 Bot succesfully running ✅ `);
         
         app.listen(port, () => {
-            console.info('=================================');
-            console.info(`======= ENV: ${action} =======`);
             console.info(`🚀 App listening on the port ${port}`);
             console.info('=================================');
         });
